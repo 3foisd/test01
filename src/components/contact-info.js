@@ -19,7 +19,7 @@ function Contact() {
           </div>
           <div className="flex flex-col gap-4 items-center justify-center text-center px-8 mx-auto w-72 lg:w-3/12 h-72 bg-indigo-950 rounded-lg">
             <Image src="/webfonts/envelope-solid.svg" width="24" height="24" alt="mail"/>
-            <Link href="mailto:accueil@novamed.be" className="text-white hover:text-primary-600">accueil@novamed.be</Link>
+            <Link href="mailto:accueil@novamed.be" className="text-white hover:text-primary-600">contact@novamed.be</Link>
           </div>
         </div>
         {/* <div className="flex flex-row align-center justify-end m-16">

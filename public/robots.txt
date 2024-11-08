@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://favicon.pixldev.be
+
+# Sitemaps
+Sitemap: https://favicon.pixldev.be/sitemap.xml

@@ -1,0 +1,40 @@
+{
+  "keywords": ["favicon", "generator", "web", "manifes"],
+  "title": "Tool to generate you favicon folder for you web application.",
+  "description": "Tool to generate you favicon folder for you web application.",
+  "manifest": {
+    "projectShortName": "Tool to generate you favicon folder for you web application.",
+    "themeColor": "#000000",
+    "url": "https://www.favicon.pixldev.be/",
+    "description": "Tool to generate you favicon folder for you web application.",
+    "display": "standalone",
+    "orientation": "portrait",
+    "backgroundColor": "#000000"
+  },
+  "gtag": "G-xxxxx",
+
+  "pages": [
+    {
+      "title": "link.home",
+      "link": "/",
+      "meta": {
+        "title": "home.meta.title",
+        "description": "home.meta.description",
+        "keywords": []
+      }
+    }
+  ],
+  "socials": [],
+  "sla": [],
+  "companyName": "Pixl SRL",
+  "tel": "02/xxxxx",
+  "email": "contact@pixldev.be",
+  "web": "https://www.favicon.pixldev.be",
+  "tva": "BE XXXXXX",
+  "locales": ["fr"],
+  "defaultLocale": "fr",
+  "author": {
+    "name": "Pixl",
+    "url": "https://www.pixldev.be"
+  }
+}

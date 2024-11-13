@@ -14,6 +14,9 @@ module.exports = {
       '2xl': '24px',
       '3xl': '30px',
       '4xl': '36px',
+      '5xl': '48px',
+      '6xl': '60px',
+
     },
     fontFamily: {
       wix: 'Wix Madefor Display',

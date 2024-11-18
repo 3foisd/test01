@@ -88,6 +88,7 @@ module.exports = {
       'primary-900': '#4C0707',
       'primary-950': '#320404',
       'indigo-950' : '#1e1b4b',
+      'red-950': '#FF0000',
   
     },
     extend: {

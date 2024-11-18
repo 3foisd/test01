@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import Newsletter from '../components/newsletter'
-import Contacts from '../components/contacts'
+import About from '../components/about'
 
 
 
@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout>
       <Navbar/>
-      <Contacts/>
+      <About/>
       <Newsletter/>
     </Layout>
   )

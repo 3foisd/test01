@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from "next/Image";
 
-function newsletter() {
+function newsletter3() {
     return (
-      <div className='bg-indigo-950 rounded-[25px] mx-auto mb-32 w-full lg:h-96'>
-        <div className='flex flex-col justify-center items-center content-center w-full text-white mb-10 lg:mb-0 px-5 lg:px-0 lg:pl-5'>
-            <div className='w-full lg:w-6/12 flex flex-col'>
-                <h2 className='text-2xl lg:text-4xl pt-10 lg:pt-0 px-10 text-center'>Subscribe to our newsletter</h2>
+      
+        <div className='flex flex-row justify-center items-center w-full text-white px-5 lg:px-0 pb-10 lg:pb-0 lg:pl-5 bg-indigo-950 rounded-xl mx-auto w-full lg:h-96'>
+            <div className='w-full lg:w-1/2 flex flex-col'>
+                <h2 className='text-2xl lg:text-4xl pt-10 lg:pt-0 px-20 text-center'>Subscribe to our newsletter</h2>
                 <p className='my-4 px-2 text-center'>Ipsum dolor sit amet consectetur commodo aliquam augue
                 duis aliquet ipsum donec tempus ac interdum enim.</p>    
             </div> 
@@ -19,8 +19,8 @@ function newsletter() {
             </div>
         </div>
 
-      </div>
+      
 );
 }
 
-export default newsletter;
+export default newsletter3;

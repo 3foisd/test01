@@ -5,8 +5,8 @@ function footer() {
     return (
       <div>
 
-        <footer className="flex flex-col justify-evenly bg-indigo-950 min-h-fit lg:h-[70rem] rounded-t-[25px] px-10 mx-5">
-            <div className="flex flex-col lg:flex-row justify-around mt-10">
+        <footer className="flex flex-col justify-evenly bg-indigo-950 min-h-fit lg:h-screen rounded-t-xl px-10 mx-5">
+            <div className="flex flex-col lg:flex-row justify-around">
               <div className="flex flex-col mb-10 lg:mb-0 pr-0 lg:pr-10 gap-4 lg:w-3/12 mx-auto text-center lg:text-left">
                 <Image className="mx-auto lg:mx-0" width="200" height="200" src="/images/logo.svg" alt="iconic"/>
                 <p className="text-lg">Ipsum dolor sit amet litum dolor
@@ -31,7 +31,7 @@ function footer() {
                 <h2 className="font-black text-2xl">Contact us</h2>
                 <div className="flex flex-row gap-10">
                   <Image src="/webfonts/map-marker-alt-solid-white.svg" width="16" height="16" alt="map"/>
-                  <Link href="https://maps.appb.goo.gl/Syji96gp16iBVE3DA" className="text-white text-left hover:text-primary-600">Avenue houba de strooper 101, 1020 Laeken, Bruxelles</Link>
+                  <Link href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank" className="text-white text-left hover:text-primary-600">Avenue houba de strooper 101, 1020 Laeken, Bruxelles</Link>
                 </div>
                 <div className="flex flex-row gap-10">
                   <Image src="/webfonts/envelope-solid-white.svg" width="16" height="16" alt="mail"/>

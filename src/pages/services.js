@@ -1,14 +1,17 @@
 import React from 'react'
 import Layout from '../components/layout'
+import RichText from '../components/RichText'
+import ContactForm from '../components/ContactForm'
+import Newsletter3 from '../components/newsletter3'
 
-import Navbar from '../components/navbar'
+
 
 export default function Services() {
   return (
     <Layout>
-      <Navbar/>
-      <h1 className='text-center text-[25px] mb-20'>Services</h1>
-      
+      <RichText/>
+      <ContactForm/>
+      <Newsletter3/>
     </Layout>
   )
 }

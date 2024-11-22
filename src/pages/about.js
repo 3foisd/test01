@@ -1,20 +1,22 @@
 import React from 'react'
 import Layout from '../components/layout'
-import About from '../components/storyNov'
-import Top from '../components/aboutTop'
-import Newsletter from '../components/newsletter'
-import Value from '../components/valueBadge'
-import Doctors from '../components/doctorID'
+import StoryNov from '../components/storyNov'
+import Top from '../components/HeroHome'
+import Newsletter2 from '../components/newsletter2'
+import CardAbtus from '../components/CardAbtus'
+import Doctors from '../components/doctors'
 
 
 export default function Contact() {
     return (
       <Layout>
+        <div className='flex flex-col gap-5'>
         <Top/>
-      <About/>
-      <Value/>
+      <StoryNov/>
+      <CardAbtus/>
       <Doctors/>
-      <Newsletter/>
+      <Newsletter2/>
+      </div>
       </Layout>
     )
   }

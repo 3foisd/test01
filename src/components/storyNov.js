@@ -1,17 +1,17 @@
 import Link from 'next/link'
 import Image from "next/Image"
 
-function header() {
+function StoryNov() {
     return (
 
-        <div className="bg-gray-200 rounded-[20px] mb-32">
+        <div className="bg-gray-200 rounded-xl">
 
             <div className='flex flex-col lg:flex-row justify-between items-center px-10 pt-20 pb-16'>
                 <div className="w-full lg:w-5/12 mb-5 lg:mb-0">
                     <h2 className="text-4xl mb-2">The story of how novamed was founded</h2>
                     <p>Lorem ipsum dolor sit amet consectetur. Pharetra odio enim vitae suscipit quis. Massa placerat tortor amet est scelerisque turpis semper amet dignissim. Aenean eget sit massa volutpat. Eget arcu tellus et elit nunc est dolor.</p>
                 </div>
-                <Image className='rounded-[20px]' src="/images/bureau.jpg" width="550" height="550" alt="bureau" />
+                <Image className='rounded-xl' src="/images/bureau.jpg" width="550" height="550" alt="bureau" />
             </div>
 
             <div className='flex flex-col lg:flex-row items-center justify-around pb-10 gap-5 lg:gap-0'>
@@ -36,4 +36,4 @@ function header() {
     );
 }
 
-export default header;
+export default StoryNov;

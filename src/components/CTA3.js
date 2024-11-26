@@ -16,7 +16,7 @@ function CTA3() {
                 </Link>
                 <h3 className='text-2xl'>Visit us</h3>
                 <p>Avenue Houba de Strooper 101, 1020 Laeken, Bruxelles</p>
-                <Link className='flex flex-row gap-3 text-indigo-950' href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank">Open on Google Maps <Image src="/webfonts/arrow-right-solid-black.svg" width="15" height="15"/></Link>
+                <Link className='flex flex-row gap-3 text-indigo-950 hover:text-red-950' href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank">Open on Google Maps <Image src="/webfonts/arrow-right-solid-black.svg" width="15" height="15"/></Link>
                 <div className="bg-black w-full h-px my-3"/>
                 <p>Mon - Fri: 08:00 am to 05:00 pm</p>
                 <p>Saturday: 09:00am to 12:00 pm</p>
@@ -28,10 +28,10 @@ function CTA3() {
                 </Link>
                 <h3 className='text-2xl'>Contact us</h3>
                 <p>Phone number</p>
-                <Link className='flex flex-row gap-3 text-indigo-950' href="tel:+32484990154" target="_blank">+32484990154</Link>
+                <Link className='flex flex-row gap-3 text-indigo-950 hover:text-red-950' href="tel:+32484990154" target="_blank">+32484990154</Link>
                 <div className="bg-black w-6/12 h-px my-3"/>
                 <p>Email :</p>
-                <Link className='text-indigo-950' href="mailto:accueil@novamed.be">accueil@novamed.be</Link>
+                <Link className='text-indigo-950 hover:text-red-950' href="mailto:accueil@novamed.be">accueil@novamed.be</Link>
             </div>
         </div>
 

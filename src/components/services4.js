@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function Services() {
+function Services4() {
     return (
         <div>
 
@@ -21,32 +21,32 @@ function Services() {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row mt-10">
-                <div className="px-5 w-full lg:w-4/12 mb-16">
+            <div className="flex flex-col gap-4 lg:flex-row mt-10">
+                <div className="bg-gray-200 rounded-xl flex flex-col justify-center px-5 w-full lg:w-4/12 py-10 lg:py-0">
                     <Link href="/">
-                        <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="arrow-right"/>
+                        <Image className="pb-5" src="/webfonts/circle-check-regular.svg" width="75" height="75" alt="arrow-right"/>
                     </Link>
                     <Link href="/">
-                        <h2 className="text-3xl mb-3">General Medecine</h2>
+                        <h2 className="text-3xl mb-3">Kinesitherapy</h2>
                     </Link> 
                     <p>Lorem ipsum dolor sit amet consectetur
                     quisque faucibus dolor tortor porta sit
                     tempor purus proin sapien docer.</p>
                 </div>
 
-                <div className="px-5 w-full lg:w-4/12 mb-16">
+                <div className="bg-gray-200 rounded-xl flex flex-col justify-center px-5 w-full lg:w-4/12 py-10 lg:py-0">
                     <Link href="/">
-                        <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="arrow-right"/>
+                        <Image className="pb-5" src="/webfonts/circle-check-regular.svg" width="75" height="75" alt="arrow-right"/>
                     </Link>
                     <Link href="/">
-                        <h2 className="text-3xl mb-3">General Medecine</h2>
+                        <h2 className="text-3xl mb-3">Kinesitherapy</h2>
                     </Link> 
                     <p>Lorem ipsum dolor sit amet consectetur
                     quisque faucibus dolor tortor porta sit
                     tempor purus proin sapien docer.</p>
                 </div>
 
-                <div className="bg-red-950 rounded-xl text-white py-10 px-5 w-full lg:w-4/12 mb-5">
+                <div className="bg-red-950 rounded-xl text-white py-10 px-5 w-full lg:w-4/12">
                     <h2 className="text-3xl mb-5">Schedule your appointment today!</h2>
                     <p>Lorem ipsum dolor sit amet consectetur
                     quisque faucibus dolor tortor porta sit
@@ -65,4 +65,4 @@ function Services() {
 );
 }
 
-export default Services;
+export default Services4;

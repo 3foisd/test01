@@ -12,11 +12,11 @@ function HeroHome() {
                 augue duis aliquet ipsum donec tempus ac interdum enim.</p>
 
                 <div className="flex flex-row gap-4">
-                    <button className="flex flex-row justify-around items-center bg-indigo-950 w-32 h-12 rounded-full text-white">
+                    <button className="flex flex-row justify-around items-center bg-indigo-950 hover:bg-red-950 w-32 h-12 rounded-full text-white">
                         <Image src="/webfonts/bell-regular white.svg" width="24" height="24" alt="map"/>
                         <Link href="">Label</Link>
                     </button>
-                    <button className="justify-around items-center bg-indigo-950 w-12 h-12 rounded-full hidden lg:block">
+                    <button className="justify-around items-center bg-indigo-950 hover:bg-red-950 w-12 h-12 rounded-full hidden lg:block">
                         <Image className="mx-auto" src="/webfonts/arrow-right-solid.svg" width="20" height="20" alt="arrow-right"/>
                     </button>
                 </div>

@@ -50,11 +50,11 @@ function footer() {
             <div className="flex flex-col lg:flex-row items-end justify-between gap-10 lg:gap-0 py-10 lg:py-0">
               <h2 className="text-2xl lg:text-6xl w-full lg:w-6/12 text-center lg:text-left">Your Journey to Wellness Starts Here</h2>
               <div className="flex flex-row gap-4">
-                <button className="flex flex-row justify-around items-center bg-white w-64 h-12 rounded-full text-black">
+                <button className="flex flex-row justify-around items-center bg-white hover:bg-red-950 hover:text-white w-64 h-12 rounded-full text-black">
                   <Image src="/webfonts/bell-regular.svg" width="24" height="24" alt="map"/>
                   <Link href="">Schedule an appointment</Link>
                 </button>
-                <button className="justify-around items-center bg-white w-12 h-12 rounded-full hidden lg:block">
+                <button className="justify-around items-center bg-white hover:bg-red-950 w-12 h-12 rounded-full hidden lg:block">
                 <Image className="mx-auto" src="/webfonts/arrow-right-solid-black.svg" width="20" height="20" alt="arrow-right"/>
                 </button>
               </div>

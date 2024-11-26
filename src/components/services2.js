@@ -8,11 +8,11 @@ function Services2() {
             <div className="flex flex-col lg:flex-row justify-between">
                 <h2 className="w-full lg:w-5/12 text-3xl lg:text-4xl">Discover our wide range of specialities</h2>
                 <div className='flex flex-col lg:flex-row gap-4 lg:gap-10 mt-10'>
-                <button className="flex flex-row justify-around items-center bg-gray-200 w-52 h-12 rounded-full text-black">
+                <button className="flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 hover:text-white w-52 h-12 rounded-full text-black">
                     <Image src="/webfonts/map-marker-alt-solid-black.svg" width="24" height="24" alt="bell"/>
                     <Link href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank">Browse all services</Link>
                 </button>
-                <button className="hidden lg:flex flex-row justify-around items-center bg-gray-200 w-12 h-12 rounded-full">
+                <button className="hidden lg:flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 w-12 h-12 rounded-full">
                     <Link href="/"><Image src="/webfonts/arrow-right-solid-black.svg" width="24" height="24" alt="bell"/></Link>
                 </button>
                 </div>
@@ -20,9 +20,9 @@ function Services2() {
 
             <div className="flex flex-col lg:flex-row">
                 <div className="px-5 w-full lg:w-4/12 flex flex-col justify-center">
-                    <div className="bg-gray-200 rounded-full w-4/12 h-4/12 py-9">
+                    <div className="bg-gray-200 rounded-full w-24 h-24">
                         <Link href="/">
-                            <Image className="mx-auto" src="/webfonts/clipboard-list-solid.svg" width="35" height="35" alt="clipboard"/>
+                            <Image className="mx-auto mt-6" src="/webfonts/clipboard-list-solid.svg" width="35" height="35" alt="clipboard"/>
                         </Link>
                     </div>
                     
@@ -35,9 +35,9 @@ function Services2() {
                 </div>
 
                 <div className="px-5 w-full lg:w-4/12 flex flex-col justify-center">
-                    <div className="bg-gray-200 rounded-full w-4/12 h-4/12 py-9">
+                    <div className="bg-gray-200 rounded-full w-24 h-24">
                         <Link href="/">
-                            <Image className="mx-auto" src="/webfonts/clipboard-list-solid.svg" width="35" height="35" alt="clipboard"/>
+                            <Image className="mx-auto mt-6" src="/webfonts/clipboard-list-solid.svg" width="35" height="35" alt="clipboard"/>
                         </Link>
                     </div>
                     
@@ -50,9 +50,9 @@ function Services2() {
                 </div>
 
                 <div className="px-5 w-full lg:w-4/12 flex flex-col justify-center">
-                    <div className="bg-gray-200 rounded-full w-4/12 h-4/12 py-9">
+                    <div className="bg-gray-200 rounded-full w-24 h-24">
                         <Link href="/">
-                            <Image className="mx-auto" src="/webfonts/clipboard-list-solid.svg" width="35" height="35" alt="clipboard"/>
+                            <Image className="mx-auto mt-6" src="/webfonts/clipboard-list-solid.svg" width="35" height="35" alt="clipboard"/>
                         </Link>
                     </div>
                     

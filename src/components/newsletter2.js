@@ -3,8 +3,8 @@ import Image from "next/Image";
 
 function newsletter2() {
     return (
-      <div className='bg-indigo-950 rounded-xl mx-auto mb-32 flex flex-col lg:flex-row w-full lg:h-96'>
-        <div className='w-full lg:w-6/12 text-white lg:mb-0 px-5 lg:px-0 lg:pl-5 flex flex-col justify-center align-items-center'>
+      <div className='bg-indigo-950 rounded-xl mx-auto flex flex-col lg:flex-row w-full lg:h-96'>
+        <div className='w-full lg:w-1/2 text-white lg:mb-0 px-5 lg:px-0 lg:pl-5 flex flex-col justify-center align-items-center'>
             <h2 className='text-2xl lg:text-4xl pt-10 lg:pt-0 px-10 text-center'>Subscribe to our newsletter</h2>
             <p className='my-4 px-2 text-center'>Ipsum dolor sit amet consectetur commodo aliquam augue
             duis aliquet ipsum donec tempus ac interdum enim.</p>

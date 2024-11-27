@@ -17,10 +17,6 @@ function DocList() {
                     </Link>
                 </div>
             </div>
-
-            
-        
-
 );
 }
 

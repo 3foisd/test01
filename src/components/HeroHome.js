@@ -5,7 +5,7 @@ function HeroHome() {
     return (
 
         <div className='flex flex-col lg:flex-row justify-between items-center'>
-            <Image className='rounded-xl' src="/images/freepik__candid-image-photography-natural-textures-highly-r__55151.jpg" width="500" height="500"/>
+            <Image className='rounded-xl' src="/images/freepik__candid-image-photography-natural-textures-highly-r__55151.jpg" width="500" height="500" alt="doctors"/>
             <div className='flex flex-col gap-3 w-full lg:w-5/12 lg:mr-20 py-5 lg:py-0'>
                 <h2 className='text-2xl lg:text-5xl'>Pioneering the future of personalized healthcare</h2>
                 <p>Lorem ipsum dolor sit amet consectetur commodo aliquam

@@ -9,11 +9,11 @@ function Services2() {
                 <h2 className="w-full lg:w-5/12 text-3xl lg:text-4xl">Discover our wide range of specialities</h2>
                 <div className='flex flex-col lg:flex-row gap-4 lg:gap-10 mt-10'>
                 <button className="flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 hover:text-white w-52 h-12 rounded-full text-black">
-                    <Image src="/webfonts/map-marker-alt-solid-black.svg" width="24" height="24" alt="bell"/>
+                    <Image src="/webfonts/map-marker-alt-solid-black.svg" width="24" height="24" alt="map"/>
                     <Link href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank">Browse all services</Link>
                 </button>
                 <button className="hidden lg:flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 w-12 h-12 rounded-full">
-                    <Link href="/"><Image src="/webfonts/arrow-right-solid-black.svg" width="24" height="24" alt="bell"/></Link>
+                    <Link href="/"><Image src="/webfonts/arrow-right-solid-black.svg" width="24" height="24" alt="arrow-right"/></Link>
                 </button>
                 </div>
             </div>

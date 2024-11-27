@@ -11,8 +11,8 @@ function CTA3() {
             </div>
 
             <div className='flex flex-col gap-2 w-full lg:w-3/12'>
-                <Link href="/" className='bg-gray-300 rounded-full w-3/12 h-16'>
-                    <Image className='ml-7 mt-5' src="/webfonts/map-marker-alt-solid-black.svg" width="20" height="20"/>
+                <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                    <Image className='mx-auto mt-5' src="/webfonts/map-marker-alt-solid-black.svg" width="20" height="20"/>
                 </Link>
                 <h3 className='text-2xl'>Visit us</h3>
                 <p>Avenue Houba de Strooper 101, 1020 Laeken, Bruxelles</p>
@@ -23,8 +23,8 @@ function CTA3() {
             </div>
 
             <div className='flex flex-col gap-2 w-full lg:w-3/12 lg:pl-10'>
-                <Link href="/" className='bg-gray-300 rounded-full w-3/12 h-16'>
-                    <Image className='ml-5 mt-5' src="/webfonts/phone-alt-solid-black.svg" width="20" height="20"/>
+                <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                    <Image className='mx-auto mt-5' src="/webfonts/phone-alt-solid-black.svg" width="20" height="20"/>
                 </Link>
                 <h3 className='text-2xl'>Contact us</h3>
                 <p>Phone number</p>

@@ -6,7 +6,7 @@ function CTA1() {
 
         <div>
 
-            <div className="flex flex-col lg:flex-row my-24 gap-5"> 
+            <div className="flex flex-col lg:flex-row gap-5"> 
                 <Image className="rounded-xl mx-auto lg:mx-0" width="700" height="700" src="/images/Professional Medical Consultation.jpeg" alt="iconic"/>
                 <div className="flex flex-col justify-center px-5 py-10 lg:py-16 lg:px-16 gap-5 bg-gray-200 rounded-xl">
                     <p className="text-red-950">About us</p>

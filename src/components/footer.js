@@ -7,12 +7,12 @@ function footer() {
 
         <footer className="flex flex-col justify-evenly bg-indigo-950 min-h-fit lg:h-screen rounded-t-xl px-10 mx-5">
             <div className="flex flex-col lg:flex-row justify-around">
-              <div className="flex flex-col mb-10 lg:mb-0 pr-0 lg:pr-10 gap-4 lg:w-3/12 mx-auto text-center lg:text-left">
-                <Image className="mx-auto lg:mx-0" width="200" height="200" src="/images/logo.svg" alt="iconic"/>
+              <div className="flex flex-col mb-10 lg:mb-0 pr-0 lg:pr-10 gap-4 lg:w-1/4 mx-auto text-center lg:text-left">
+                <Image className="mx-auto lg:mx-0" width="200" height="200" src="/images/logo.svg" alt="logo"/>
                 <p className="text-lg">Ipsum dolor sit amet litum dolor
                 consectetur aliquam augue.</p>
               </div>
-              <div className="flex flex-col gap-4 w-full lg:w-3/12 mx-auto text-center lg:text-left mb-10 lg:mb-0">
+              <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">
                 <h2 className="font-black text-2xl">Pages</h2>
                 <Link className="hover:text-primary-600" href="">Home</Link>
                 <Link className="hover:text-primary-600" href="">About</Link>
@@ -21,13 +21,13 @@ function footer() {
                 <Link className="hover:text-primary-600" href="">Blog</Link>
                 <Link className="hover:text-primary-600" href="">Testimonials</Link>
               </div>
-              <div className="flex flex-col gap-4 w-full lg:w-3/12 mx-auto text-center lg:text-left mb-10 lg:mb-0">
+              <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">
                 <h2 className="font-black text-2xl">Pages</h2>
                 <Link className="hover:text-primary-600" href="">FAQ</Link>
                 <Link className="hover:text-primary-600" href="">Privacy Policy</Link>
                 <Link className="hover:text-primary-600" href="">Terms and conditions</Link>
               </div>
-              <div className="flex flex-col gap-4 w-full lg:w-3/12 mx-auto text-center lg:text-left mb-10 lg:mb-0">
+              <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">
                 <h2 className="font-black text-2xl">Contact us</h2>
                 <div className="flex flex-row gap-10">
                   <Image src="/webfonts/map-marker-alt-solid-white.svg" width="16" height="16" alt="map"/>
@@ -38,7 +38,7 @@ function footer() {
                   <Link href="mailto:accueil@novamed.be" className="text-white hover:text-primary-600">contact@novamed.be</Link>
                 </div>
                 <div className="flex flex-row gap-10">
-                  <Image src="/webfonts/phone-alt-solid white.svg" width="16" height="16" alt="mail"/>
+                  <Image src="/webfonts/phone-alt-solid white.svg" width="16" height="16" alt="phone"/>
                   <Link href="tel:+32484990154" className="text-white hover:text-primary-600">+32484990154</Link>
                 </div>
               </div>
@@ -48,7 +48,7 @@ function footer() {
 
 
             <div className="flex flex-col lg:flex-row items-end justify-between gap-10 lg:gap-0 py-10 lg:py-0">
-              <h2 className="text-2xl lg:text-6xl w-full lg:w-6/12 text-center lg:text-left">Your Journey to Wellness Starts Here</h2>
+              <h2 className="text-2xl lg:text-6xl w-full lg:w-1/2 text-center lg:text-left">Your Journey to Wellness Starts Here</h2>
               <div className="flex flex-row gap-4">
                 <button className="flex flex-row justify-around items-center bg-white hover:bg-red-950 hover:text-white w-64 h-12 rounded-full text-black">
                   <Image src="/webfonts/bell-regular.svg" width="24" height="24" alt="map"/>

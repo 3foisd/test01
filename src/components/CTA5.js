@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import Image from "next/Image"
 
-function CTA3() {
+function CTA5() {
     return (
         <div className='bg-gray-200 rounded-xl flex flex-col lg:flex-row gap-5 justify-between'>
             <div className='flex flex-col justify-between w-full lg:w-1/2 gap-5 py-10 px-5'>
                 <div className='flex flex-col lg:flex-row gap-3 w-full justify-center'>
-                    <Link href="/" className='bg-gray-300 rounded-full w-3/12 h-16'>
-                        <Image className='ml-7 mt-5' src="/webfonts/map-marker-alt-solid-black.svg" width="20" height="20"/>
+                    <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                        <Image className='mx-auto mt-5' src="/webfonts/map-marker-alt-solid-black.svg" width="20" height="20"/>
                     </Link>
                     <div className='flex flex-col gap-2'>
                         <h3 className='text-2xl'>Visit us</h3>
@@ -17,8 +17,8 @@ function CTA3() {
                 </div>
 
                 <div className='flex flex-col lg:flex-row justify-start gap-3 w-full'>
-                    <Link href="/" className='bg-gray-300 rounded-full w-2/12 h-16'>
-                        <Image className='ml-5 mt-5' src="/webfonts/clock-regular.svg" width="25" height="25"/>
+                    <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                        <Image className='mx-auto mt-5' src="/webfonts/clock-regular.svg" width="25" height="25"/>
                     </Link>
                     <div>
                     <h3 className='text-2xl'>Opening hours</h3>
@@ -28,8 +28,8 @@ function CTA3() {
                 </div>
 
                 <div className='flex flex-col lg:flex-row justify-start gap-3 w-full'>
-                    <Link href="/" className='bg-gray-300 rounded-full w-2/12 h-16'>
-                        <Image className='ml-5 mt-5' src="/webfonts/phone-alt-solid-black.svg" width="20" height="20"/>
+                    <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                        <Image className='mx-auto mt-5' src="/webfonts/phone-alt-solid-black.svg" width="20" height="20"/>
                     </Link>
                     <div>
                         <h3 className='text-2xl'>Contact us</h3>
@@ -74,4 +74,4 @@ function CTA3() {
         );
     }
     
-    export default CTA3;
+    export default CTA5;

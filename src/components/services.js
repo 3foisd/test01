@@ -12,11 +12,11 @@ function Services() {
                 </div>
                 <div className='flex flex-col lg:flex-row gap-4 lg:gap-10 mt-10'>
                 <button className="flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 hover:text-white w-52 h-12 rounded-full text-black">
-                    <Image src="/webfonts/map-marker-alt-solid-black.svg" width="24" height="24" alt="bell"/>
+                    <Image src="/webfonts/map-marker-alt-solid-black.svg" width="24" height="24" alt="map"/>
                     <Link href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank">Browse all services</Link>
                 </button>
                 <button className="hidden lg:flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 w-12 h-12 rounded-full">
-                    <Link href="/"><Image src="/webfonts/arrow-right-solid-black.svg" width="24" height="24" alt="bell"/></Link>
+                    <Link href="/"><Image src="/webfonts/arrow-right-solid-black.svg" width="24" height="24" alt="arrow-right"/></Link>
                 </button>
                 </div>
             </div>
@@ -24,7 +24,7 @@ function Services() {
             <div className="flex flex-col lg:flex-row mt-10">
                 <div className="px-5 w-full lg:w-4/12 mb-16">
                     <Link href="/">
-                        <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="arrow-right"/>
+                        <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="first-aid-kit"/>
                     </Link>
                     <Link href="/">
                         <h2 className="text-3xl mb-3">General Medecine</h2>
@@ -36,7 +36,7 @@ function Services() {
 
                 <div className="px-5 w-full lg:w-4/12 mb-16">
                     <Link href="/">
-                        <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="arrow-right"/>
+                        <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="first-aid-kit"/>
                     </Link>
                     <Link href="/">
                         <h2 className="text-3xl mb-3">General Medecine</h2>
@@ -53,7 +53,7 @@ function Services() {
                     tempor purus proin sapien docer.</p>
                     <div className="flex flex-row gap-4 mt-6">
                         <button className="flex flex-row justify-around items-center bg-white hover:bg-indigo-950 hover:text-white w-64 h-12 rounded-full text-black">
-                            <Image src="/webfonts/bell-regular.svg" width="24" height="24" alt="map"/>
+                            <Image src="/webfonts/bell-regular.svg" width="24" height="24" alt="bell"/>
                             <Link href="">Schedule an appointment</Link>
                         </button>
                     </div>

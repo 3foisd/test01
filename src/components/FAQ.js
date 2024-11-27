@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function blog() {
+function FAQ() {
     return (
         
         <div className="flex flex-col justify-center items-center gap-3">
@@ -13,7 +13,7 @@ function blog() {
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">
-                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" />
+                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" alt="+" />
                 </button>
             </div>
 
@@ -21,7 +21,7 @@ function blog() {
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">
-                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" />
+                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" alt="+" />
                 </button>
             </div>
 
@@ -29,7 +29,7 @@ function blog() {
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">
-                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" />
+                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" alt="+" />
                 </button>
             </div>
 
@@ -37,11 +37,11 @@ function blog() {
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">
-                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" />
+                    <Image className="ml-5" src="/webfonts/plus-solid-white.svg" width="25" height="25" alt="+" />
                 </button>
             </div>
         </div>
     );
 }
 
-export default blog;
+export default FAQ;

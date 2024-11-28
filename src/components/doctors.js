@@ -19,7 +19,7 @@ function Doctors() {
 
             <div className="flex flex-col lg:flex-row gap-4">
                 <div className="w-full lg:w-1/3 mb-16">
-                    <Link href="/"><Image className="rounded-xl mb-5" src="/images/front-view-male-nurse-hospital (1).jpg" width="500" height="500" alt="doctors"/></Link> 
+                    <Link href="/DoctorsSingle"><Image className="rounded-xl mb-5" src="/images/front-view-male-nurse-hospital (1).jpg" width="500" height="500" alt="doctors"/></Link> 
                     <p className="text-xl">Cardiologist</p>
                     <Link href="/"><h2 className="text-4xl">Dr. Soufiane Chebli</h2></Link> 
                     <div className="flex flex-row gap-4 mx-auto lg:mx-0 mt-4">

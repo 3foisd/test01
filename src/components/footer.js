@@ -14,11 +14,11 @@ function footer() {
               </div>
               <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">
                 <h2 className="font-black text-2xl">Pages</h2>
-                <Link className="hover:text-primary-600" href="">Home</Link>
-                <Link className="hover:text-primary-600" href="">About</Link>
-                <Link className="hover:text-primary-600" href="">Services</Link>
-                <Link className="hover:text-primary-600" href="">Doctors</Link>
-                <Link className="hover:text-primary-600" href="">Blog</Link>
+                <Link className="hover:text-primary-600" href="/">Home</Link>
+                <Link className="hover:text-primary-600" href="/about">About</Link>
+                <Link className="hover:text-primary-600" href="/services">Services</Link>
+                <Link className="hover:text-primary-600" href="/Doctors">Doctors</Link>
+                <Link className="hover:text-primary-600" href="/Blog">Blog</Link>
                 <Link className="hover:text-primary-600" href="">Testimonials</Link>
               </div>
               <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">

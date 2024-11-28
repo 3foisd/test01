@@ -16,7 +16,7 @@ function CTA2() {
                 <button className="justify-around items-center bg-white hover:bg-red-950 w-12 h-12 rounded-full hidden lg:block">
                 <Image className="mx-auto" src="/webfonts/arrow-right-solid-black.svg" width="20" height="20" alt="arrow-right"/>
                 </button>
-              </div>
+            </div>
         </div>
         <Image className='mx-auto' src="/images/freepik__candid-image-photography-natural-textures-highly-r__74749 2.png" width="650" height="400" alt="doctors"/>
 

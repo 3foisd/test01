@@ -14,7 +14,8 @@ export default function Contact() {
         <Top/>
       <StoryNov/>
       <CardAbtus/>
-      <Doctors/>
+      <div className='bg-gray-200 rounded-xl p-10'><Doctors/></div>
+      
       <Newsletter2/>
       </div>
       </Layout>

@@ -10,12 +10,11 @@ import Doctors from '../components/doctors'
 import Services from '../components/services'
 import Services2 from '../components/services2'
 import Services3 from '../components/services3'
-import Services4 from '../components/services4'
 import Blog from '../components/Blog'
 import List from '../components/DocList'
 import List2 from '../components/DocList2'
 import Testimonial from '../components/TestimonialAnimation'
-import FAQ from '../components/FAQ'
+
 
 
 
@@ -31,15 +30,13 @@ export default function Home() {
       <Services5/>
       <Services/>
       <Services2/>
-      <Services3/>
-      <Services4/>
+      <Services3/>      
       <Doctors/>
       <List/>
       <List2/>
       <Testimonial/>
       <Blog/>
       <Newsletter/>
-      <FAQ/>
       </div>
     </Layout>
   )

@@ -23,13 +23,16 @@ function header() {
                         <a href="/services" class="text-black hover:text-red-950 active:bg-red-950">Services</a>
                     </li>
                     <li>
-                        <a href="#" class="text-black hover:text-red-950 active:bg-red-950">Doctors</a>
+                        <a href="/Doctors" class="text-black hover:text-red-950 active:bg-red-950">Doctors</a>
                     </li>
                     <li>
-                        <a href="#" class="text-black hover:text-red-950 active:bg-red-950">Blog</a>
+                        <a href="/Blog" class="text-black hover:text-red-950 active:bg-red-950">Blog</a>
                     </li>
                     <li>
-                        <a href="#" class="text-black hover:text-red-950 active:bg-red-950">Contact</a>
+                        <a href="/ContactRDV" class="text-black hover:text-red-950 active:bg-red-950">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/Center" class="text-black hover:text-red-950 active:bg-red-950">Center</a>
                     </li>
                 </ul>
             </div>

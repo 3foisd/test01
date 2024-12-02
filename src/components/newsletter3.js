@@ -10,7 +10,7 @@ function newsletter3() {
                 <p className='my-4 px-2 text-center'>Ipsum dolor sit amet consectetur commodo aliquam augue
                 duis aliquet ipsum donec tempus ac interdum enim.</p>    
             </div> 
-            <div className='flex flex-row mx-auto mt-5 justify-around items-center bg-white w-full lg:w-80 h-12 rounded-full'>
+            <div className='flex flex-row mx-auto mt-5 justify-around items-center bg-white w-full lg:w-80 h-12 rounded-full pr-2'>
                 <input type="email" id="email" class="border-0 rounded-full h-12 text-black" placeholder="Enter your email" required></input>
                 <button className='flex flex-row gap-2 justify-between items-center bg-gray-800 hover:bg-red-950 w-26 lg:w-30 h-8 rounded-full px-5'>
                     <p>Subscribe</p>

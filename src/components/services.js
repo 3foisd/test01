@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function Services() {
+function Services({ title, description}) {
     return (
         <div>
 
@@ -27,11 +27,9 @@ function Services() {
                         <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="first-aid-kit"/>
                     </Link>
                     <Link href="/">
-                        <h2 className="text-3xl mb-3">General Medecine</h2>
+                        <h2 className="text-3xl mb-3">{title}</h2>
                     </Link> 
-                    <p>Lorem ipsum dolor sit amet consectetur
-                    quisque faucibus dolor tortor porta sit
-                    tempor purus proin sapien docer.</p>
+                    <p>{description}</p>
                 </div>
 
                 <div className="px-5 w-full lg:w-4/12 mb-16">

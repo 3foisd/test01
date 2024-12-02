@@ -22,16 +22,26 @@ import Testimonial from '../components/TestimonialAnimation'
 export default function Home() {
   return (
     <Layout>
-      <div className='flex flex-col gap-10'>
-      <HeroHome2/>
+      <div className='flex flex-col gap-32'>
+      <HeroHome2 title="Your partner in Health and Wellness" description="Lorem ipsum dolor sit amet consectetur commodo aliquam
+                augue duis aliquet ipsum donec tempus ac interdum enim."/>
       <CTA3/>
-      <CTA1/>
-      <WhyChooseUs/>
+      <CTA1 title="Our caring doctors are here for you" description="Ut enim ad minim veniam, quis nostrud exer ullamcoert
+                    laboris nisi ut aliquip exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat."/>
+      <WhyChooseUs title1="The right care for your loved ones" title2="Doctors experts in the industry" description="Ut enim ad minim veniam, quis nostrud
+                        exer ullamcoert labore et dolore magna."/>
       <Services5/>
-      <Services/>
-      <Services2/>
-      <Services3/>      
-      <Doctors/>
+      <Services title="General Medecine" description="Lorem ipsum dolor sit amet consectetur
+                    quisque faucibus dolor tortor porta sit
+                    tempor purus proin sapien docer."/>
+      <Services2 title="General Medecine" description="Lorem ipsum dolor sit amet consectetur
+                    quisque faucibus dolor tortor porta sit
+                    tempor purus proin sapien docer."/>
+      <Services3 title1="Our wide range of specialities" title2="General Medecine" description="Lorem ipsum dolor sit amet consectetur
+                    quisque faucibus dolor tortor porta sit
+                    tempor purus proin sapien docer."/>      
+      <Doctors title="Meet our team"/>
       <List/>
       <List2/>
       <Testimonial/>

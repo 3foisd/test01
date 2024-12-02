@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function CTA1() {
+function CTA1({ title, description}) {
     return (
 
         <div>
@@ -10,10 +10,8 @@ function CTA1() {
                 <Image className="rounded-xl mx-auto lg:mx-0" width="700" height="700" src="/images/Professional Medical Consultation.jpeg" alt="iconic"/>
                 <div className="flex flex-col justify-center px-5 py-10 lg:py-16 lg:px-16 gap-5 bg-gray-200 rounded-xl">
                     <p className="text-red-950">About us</p>
-                    <h2 className="text-2xl lg:text-4xl mb-5 text-left">Our caring doctors are here for you</h2>
-                    <p>Ut enim ad minim veniam, quis nostrud exer ullamcoert
-                    laboris nisi ut aliquip exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
+                    <h2 className="text-2xl lg:text-4xl mb-5 text-left">{title}</h2>
+                    <p>{description}</p>
                    
                     <div className="flex flex-row gap-4">
                         <button className="flex flex-row justify-around items-center bg-indigo-950 hover:bg-red-950 w-56 h-12 rounded-full text-white">

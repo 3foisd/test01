@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function Services3() {
+function Services3({ title1, title2, description }) {
     return (
         <div className="flex flex-col gap-5">
             <div className="flex flex-col lg:flex-row justify-between">
-                <h2 className="w-full lg:w-5/12 text-3xl lg:text-4xl">Our wide range of specialities</h2>
+                <h2 className="w-full lg:w-5/12 text-3xl lg:text-4xl">{title1}</h2>
                 <div className="flex flex-row gap-2">
                     <div className="bg-gray-300 rounded-full w-16 h-16">
                         <Link href="/">
@@ -29,11 +29,9 @@ function Services3() {
                     </div>
                     
                     <Link href="/">
-                        <h2 className="text-3xl mb-3">General Medecine</h2>
+                        <h2 className="text-3xl mb-3">{title2}</h2>
                     </Link> 
-                    <p>Lorem ipsum dolor sit amet consectetur
-                    quisque faucibus dolor tortor porta sit
-                    tempor purus proin sapien docer.</p>
+                    <p>{description}</p>
                 </div>
 
                 <div className="bg-gray-100 rounded-xl py-5 px-5 w-full lg:w-1/3 flex flex-col justify-center">

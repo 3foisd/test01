@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function Services2() {
+function Services2({title, description}) {
     return (
         <div>
 
@@ -27,11 +27,9 @@ function Services2() {
                     </div>
                     
                     <Link href="/">
-                        <h2 className="text-3xl mb-3">General Medecine</h2>
+                        <h2 className="text-3xl mb-3">{title}</h2>
                     </Link> 
-                    <p>Lorem ipsum dolor sit amet consectetur
-                    quisque faucibus dolor tortor porta sit
-                    tempor purus proin sapien docer.</p>
+                    <p>{description}</p>
                 </div>
 
                 <div className="px-5 w-full lg:w-4/12 flex flex-col justify-center">

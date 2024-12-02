@@ -6,8 +6,10 @@ import Newsletter2 from '../components/newsletter2'
 export default function DoctorsSingle() {
     return (
         <Layout>
-            <VisitCard/>
-            <Newsletter2/>
+            <div className='flex flex-col gap-32'>
+                <VisitCard/>
+                <Newsletter2/>
+            </div>
         </Layout>    
      )
     }

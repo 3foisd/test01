@@ -1,11 +1,14 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function Doctors() {
+function Doctors({ title1, title2, description}) {
     return (
         <div>
             <div className="flex flex-col lg:flex-row justify-between mb-5">
-                <h2 className="text-4xl">Meet our team</h2>
+                <div>
+                    <p className="text-red-950">{title1}</p>
+                    <h2 className="text-4xl text-start">{title2}</h2>
+                </div>
                 <div className="flex flex-row gap-4 mt-5">
                     <button className="flex flex-row justify-around items-center bg-indigo-950 hover:bg-red-950 w-52 h-12 rounded-full text-white">
                         <Image src="/webfonts/bell-regular white.svg" width="24" height="24" alt="bell"/>

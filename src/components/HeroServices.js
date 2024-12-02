@@ -1,18 +1,16 @@
 import Link from "next/link";
 import Image from "next/Image";
 
-function HeroServices() {
+function HeroServices({title, description}) {
     return (
 
-        <div className="bg-indigo-950 rounded-xl flex flex-col lg:flex-row items-center gap-5 px-10 py-10">
+        <div className="bg-indigo-950 rounded-xl relative flex flex-col lg:flex-row items-center gap-5 px-10 py-10">
             <div className="flex flex-col gap-5 w-full lg:w-2/3 lg:pr-20 text-white">
                 <Link href="/ServicesSingle">
                     <Image src="/webfonts/heart-pulse-solid-white.svg" width="75" height="75" alt="heart-pulse"/>
                 </Link>    
-                <h2 className="text-2xl lg:text-5xl font-bold">Cardiology</h2>
-                <p className="">Lorem ipsum dolor sit amet consectetur
-                quisque faucibus dolor tortor porta sit
-                tempor purus proin sapien docer.</p>
+                <h2 className="text-2xl lg:text-5xl font-bold">{title}</h2>
+                <p className="">{description}</p>
                 <div className="flex flex-row gap-3">
                     <Image src="/webfonts/circle-check-regular-white.svg" width="20" height="20"/>
                     <p>3 appointment per month</p>
@@ -27,10 +25,10 @@ function HeroServices() {
                 </div>
             </div>
 
-            <section class="bg-gray-200 rounded-xl w-full lg:w-1/3">
+            <section class="bg-gray-200 rounded-xl absolute top-10 right-10 w-full lg:w-1/3">
                 <div class="py-8 lg:py-16 px-5">
                     <form action="#" className="flex flex-col justify-start items-start gap-8">
-                        <h2 className="text-3xl">Schedule an appointment</h2>
+                        <h2 className="text-2xl">Schedule an appointment</h2>
                         <p>Litum ipsum dolor sit amet consectetur commodo aliquam augue duis.</p>
                         <div className="w-full">
                             <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Name</label>

@@ -9,8 +9,9 @@ import Newsletter2 from '../components/newsletter2'
 export default function Services() {
   return (
     <Layout>
-      <div className='flex flex-col gap-10'>
-      <HeroBlog/>
+      <div className='flex flex-col gap-32'>
+      <HeroBlog title="All medical services available" description="Lorem ipsum dolor sit amet consectetur commodo aliquam
+                augue duis aliquet ipsum donec tempus ac interdum enim."/>
       <CardServices4/>
       <Newsletter2/>
       </div>

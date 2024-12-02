@@ -7,9 +7,11 @@ import Newsletter from '../components/newsletter'
 export default function DoctorsSingle() {
     return (
         <Layout>
-            <ContactForm/>
-            <FAQ/>
-            <Newsletter/>
+            <div className='flex flex-col gap-32'>
+                <ContactForm/>
+                <FAQ/>
+                <Newsletter/>
+            </div>
         </Layout>    
      )
     }

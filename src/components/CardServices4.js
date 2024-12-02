@@ -5,7 +5,7 @@ function CardServices4() {
     return (
 
         <div>
-            <div className="bg-gray-200 rounded-xl py-10 px-5 w-full lg:w-1/3">
+            <div className="bg-gray-200 hover:bg-red-950 hover:text-white rounded-xl py-10 px-5 w-full lg:w-1/3">
                 <Link href="/ServicesSingle">
                     <Image className="pb-16" src="/webfonts/heart-pulse-solid.svg" width="50" height="50" alt="heart-pulse"/>
                 </Link>    

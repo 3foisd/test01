@@ -13,7 +13,7 @@ function Services5() {
                     tempor purus proin sapien docer.</p>
                     <div className="flex flex-row gap-4 mt-6">
                         <button className="flex flex-row justify-around items-center bg-indigo-950 hover:bg-red-950 w-64 h-12 rounded-full text-white">
-                            <Image src="/webfonts/bell-regular white.svg" width="24" height="24" alt="bell"/>
+                            <Image className='hidden lg:flex' src="/webfonts/bell-regular white.svg" width="24" height="24" alt="bell"/>
                             <Link href="">Schedule an appointment</Link>
                         </button>
                         <button className="justify-around items-center bg-indigo-950 hover:bg-red-950 w-12 h-12 rounded-full hidden lg:block">
@@ -37,7 +37,7 @@ function Services5() {
                     tempor purus proin sapien docer.</p>
                     <div className="flex flex-row gap-4 mt-6">
                         <button className="flex flex-row justify-around items-center bg-white hover:bg-indigo-950 hover:text-white w-64 h-12 rounded-full text-black">
-                            <Image src="/webfonts/bell-regular.svg" width="24" height="24" alt="bell"/>
+                            <Image className='hidden lg:flex' src="/webfonts/bell-regular.svg" width="24" height="24" alt="bell"/>
                             <Link href="">Schedule an appointment</Link>
                         </button>
                     </div>

@@ -25,7 +25,7 @@ function HeroServices({title, description}) {
                 </div>
             </div>
 
-            <section class="bg-gray-200 rounded-xl absolute top-10 right-10 w-full lg:w-1/3">
+            <section class="bg-gray-200 rounded-xl lg:absolute top-10 right-10 w-full lg:w-1/3">
                 <div class="py-8 lg:py-16 px-5">
                     <form action="#" className="flex flex-col justify-start items-start gap-8">
                         <h2 className="text-2xl">Schedule an appointment</h2>

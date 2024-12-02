@@ -12,7 +12,7 @@ export default function Contact() {
       <Layout>
         <div className='flex flex-col gap-32'>
         <HeroHome title="Pioneering the future of personalized healthcare" description="Lorem ipsum dolor sit amet consectetur commodo aliquam
-                augue duis aliquet ipsum donec tempus ac interdum enim."/>
+                augue duis aiquet ipsum donec tempus ac interdum enim."/>
       <StoryNov/>
       <CardAbtus/>
       <div className='bg-gray-200 rounded-xl p-10'><Doctors title2="More doctors"/></div>

@@ -21,8 +21,8 @@ function Services({ title, description}) {
                 </div>
             </div>
 
-            <div className="flex flex-col lg:flex-row mt-10">
-                <div className="px-5 w-full lg:w-4/12 mb-16">
+            <div className="flex flex-col lg:flex-row gap-4 mt-10">
+                <div className="hover:bg-gray-200 rounded-xl px-5 w-full lg:w-4/12 mb-16">
                     <Link href="/">
                         <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="first-aid-kit"/>
                     </Link>
@@ -32,7 +32,7 @@ function Services({ title, description}) {
                     <p>{description}</p>
                 </div>
 
-                <div className="px-5 w-full lg:w-4/12 mb-16">
+                <div className="hover:bg-gray-200 rounded-xl px-5 w-full lg:w-4/12 mb-16">
                     <Link href="/">
                         <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="first-aid-kit"/>
                     </Link>

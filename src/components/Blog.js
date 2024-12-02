@@ -10,7 +10,7 @@ function blog() {
                     <p className="text-red-950">Blog</p>
                     <h2 className="text-3xl lg:text-4xl">Browse our latest articles on healthcare & wellness</h2>
                 </div>
-                <div className='flex flex-col lg:flex-row gap-4 lg:gap-10 mt-10'>
+                <div className='flex flex-col lg:flex-row gap-4 lg:gap-10 mt-10 mb-5'>
                 <button className="flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 hover:text-white w-52 h-12 rounded-full text-black">
                     <Image src="/webfonts/map-marker-alt-solid-black.svg" width="24" height="24" alt="bell"/>
                     <Link href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank">Browse all posts</Link>

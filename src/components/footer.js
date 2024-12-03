@@ -25,9 +25,9 @@ function footer() {
               </div>
               <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">
                 <h2 className="font-black text-2xl">Pages</h2>
-                <Link className="hover:text-primary-600" href="">FAQ</Link>
-                <Link className="hover:text-primary-600" href="">Privacy Policy</Link>
-                <Link className="hover:text-primary-600" href="">Terms and conditions</Link>
+                <Link className="hover:text-primary-600" href="/FAQpage">FAQ</Link>
+                <Link className="hover:text-primary-600" href="/PrivacyPolicy">Privacy Policy</Link>
+                <Link className="hover:text-primary-600" href="/TermsConditions">Terms and conditions</Link>
               </div>
               <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">
                 <h2 className="font-black text-2xl">Contact us</h2>

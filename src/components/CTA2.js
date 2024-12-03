@@ -4,7 +4,7 @@ import Image from "next/Image";
 
 function CTA2() {
     return (
-      <div className='bg-indigo-950 rounded-xl mx-auto lg:pl-10 flex flex-col lg:flex-row gap-5 w-full lg:h-96'>
+      <div className='bg-hero-pattern bg-cover rounded-xl mx-auto lg:pl-10 flex flex-col lg:flex-row gap-5 w-full lg:h-96'>
         <div className='w-full lg:w-6/12 text-white lg:mb-0 px-5 lg:px-0 lg:pl-5 flex flex-col justify-center items-start'>
             <h2 className='text-2xl lg:text-5xl pt-10 lg:pt-0 text-start'>Don’t Let Your Health Take a Backseat!</h2>
             <p className='my-4 px-2 text-start font-light'>Schedule an appointment with one of our experienced medical professionals today!</p>

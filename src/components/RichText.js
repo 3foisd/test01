@@ -54,7 +54,7 @@ function RichText({ title1, title2, title3, title4, title5}) {
             Nam pulvinar a lectus justo 
             aliquet integer amet.</p>
 
-            <div className="bg-gray-200 rounded-xl py-10">
+            <div className="bg-blu-200 rounded-xl py-10">
                 <p className="text-xl lg:text-3xl text-center mx-auto w-full w-3/4">“Sed id mi eget urna facilisis pharetra.
                 Nunc viverra est at magna maximus
                 consectetur. Sed nec maximus augue.

@@ -6,7 +6,7 @@ function TestimonialAnimation() {
 
         <div>
             <div className='flex flex-col lg:flex-row gap-5'>
-                <div className='bg-gray-200 rounded-xl flex flex-col justify-around gap-5 lg:w-1/3 py-5 px-5'>
+                <div className='bg-blu-200 rounded-xl flex flex-col justify-around gap-5 lg:w-1/3 py-5 px-5'>
                     <h3 className='text-3xl'>"Life-saving advice!"</h3>
                     <p>Lorem ipsum dolor sit amet consectetur. Vestibulum est quis aliquam augue phasellus. Eleifend etiam urna amet.</p>
                     <div className='flex flex-row gap-5'>
@@ -18,7 +18,7 @@ function TestimonialAnimation() {
                     </div>
                 </div>
 
-                <div className='bg-gray-200 rounded-xl flex flex-col justify-around gap-5 lg:w-1/3 py-5 px-5'>
+                <div className='bg-blu-200 rounded-xl flex flex-col justify-around gap-5 lg:w-1/3 py-5 px-5'>
                     <h3 className='text-3xl'>"Life-saving advice!"</h3>
                     <p>Lorem ipsum dolor sit amet consectetur. Vestibulum est quis aliquam augue phasellus. Eleifend etiam urna amet.</p>
                     <div className='flex flex-row gap-5'>
@@ -30,7 +30,7 @@ function TestimonialAnimation() {
                     </div>
                 </div>
 
-                <div className='bg-gray-200 rounded-xl flex flex-col justify-around gap-5 lg:w-1/3 py-5 px-5'>
+                <div className='bg-blu-200 rounded-xl flex flex-col justify-around gap-5 lg:w-1/3 py-5 px-5'>
                     <h3 className='text-3xl'>"Life-saving advice!"</h3>
                     <p>Lorem ipsum dolor sit amet consectetur. Vestibulum est quis aliquam augue phasellus. Eleifend etiam urna amet.</p>
                     <div className='flex flex-row gap-5'>

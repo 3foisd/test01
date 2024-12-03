@@ -4,7 +4,7 @@ import Image from "next/Image";
 function HeroServices({title, description}) {
     return (
 
-        <div className="bg-indigo-950 rounded-xl relative flex flex-col lg:flex-row items-center gap-5 px-10 py-10">
+        <div className="bg-hero-pattern bg-cover rounded-xl relative flex flex-col lg:flex-row items-center gap-5 px-10 py-10">
             <div className="flex flex-col gap-5 w-full lg:w-2/3 lg:pr-20 text-white">
                 <Link href="/ServicesSingle">
                     <Image src="/webfonts/heart-pulse-solid-white.svg" width="75" height="75" alt="heart-pulse"/>
@@ -25,7 +25,7 @@ function HeroServices({title, description}) {
                 </div>
             </div>
 
-            <section class="bg-gray-200 rounded-xl lg:absolute top-10 right-10 w-full lg:w-1/3">
+            <section class="bg-blu-200 rounded-xl lg:absolute top-10 right-10 w-full lg:w-1/3">
                 <div class="py-8 lg:py-16 px-5">
                     <form action="#" className="flex flex-col justify-start items-start gap-8">
                         <h2 className="text-2xl">Schedule an appointment</h2>

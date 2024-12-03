@@ -5,7 +5,7 @@ function DocList2() {
     return (
 
             <div className='flex flex-col lg:flex-row gap-10'>
-                <div className='bg-gray-200 hover:bg-red-950 hover:text-white rounded-xl flex flex-col lg:flex-row justify-between items-center w-full lg:pr-10 py-2 lg:py-0'>
+                <div className='bg-blu-200 hover:bg-red-950 hover:text-white rounded-xl flex flex-col lg:flex-row justify-between items-center w-full lg:pr-10 py-2 lg:py-0'>
                     <div className='flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-16'>
                         <Image className='rounded-xl lg:rounded-normal lg:rounded-l-xl' src="/images/front-view-male-nurse-hospital (1).jpg" width="100" height="100"/>
                         <div>

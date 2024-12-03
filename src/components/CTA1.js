@@ -8,7 +8,7 @@ function CTA1({ title, description}) {
 
             <div className="flex flex-col lg:flex-row gap-5"> 
                 <Image className="rounded-xl mx-auto lg:mx-0" width="700" height="700" src="/images/Professional Medical Consultation.jpeg" alt="iconic"/>
-                <div className="flex flex-col justify-center px-5 py-10 lg:py-16 lg:px-16 gap-5 bg-gray-200 rounded-xl">
+                <div className="flex flex-col justify-center px-5 py-10 lg:py-16 lg:px-16 gap-5 bg-blu-200 rounded-xl">
                     <p className="text-red-950">About us</p>
                     <h2 className="text-2xl lg:text-4xl mb-5 text-left">{title}</h2>
                     <p>{description}</p>

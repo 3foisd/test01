@@ -10,7 +10,7 @@ function ContactForm() {
                 <p>Litum ipsum dolor sit amet consectetur commodo aliquam
                 augue duis aliquet ipsum donec tempus ac interdum enim.</p>
             </div>
-            <section class="bg-gray-200 rounded-xl w-full lg:w-2/3">
+            <section class="bg-blu-200 rounded-xl w-full lg:w-2/3">
                 <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                     <form action="#" className="flex flex-wrap items-center space-y-8">
                         <div className="w-full lg:w-1/2 mt-8">

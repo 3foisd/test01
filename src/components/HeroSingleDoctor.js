@@ -3,7 +3,7 @@ import Image from "next/Image";
 
 function HeroSingleDoctor({ title, description}) {
     return (
-        <div className="bg-indigo-950 rounded-xl flex flex-col lg:flex-row justify-around items-center gap-4 lg:py-5 text-white">
+        <div className="bg-hero-pattern bg-cover rounded-xl flex flex-col lg:flex-row justify-around items-center gap-4 lg:py-5 text-white">
             <Image className="rounded-xl" src="/images/front-view-male-nurse-hospital (1).jpg" width="400" height="400" alt="nurse" />
             <div className="lg:w-1/2 flex flex-col justify-start items-start gap-5 px-5 py-5">
                 <h2 className="text-3xl lg:text-5xl w-full text-start">{title}</h2>

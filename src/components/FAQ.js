@@ -9,7 +9,7 @@ function FAQ() {
             <p className="w-full lg:w-1/2 text-center mb-5">Litum ipsum dolor sit amet consectetur commodo aliquam augue
             duis aliquet ipsum donec tempus ac interdum enim.</p>
 
-            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-gray-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
+            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-blu-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">
@@ -17,7 +17,7 @@ function FAQ() {
                 </button>
             </div>
 
-            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-gray-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
+            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-blu-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">
@@ -25,7 +25,7 @@ function FAQ() {
                 </button>
             </div>
 
-            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-gray-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
+            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-blu-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">
@@ -33,7 +33,7 @@ function FAQ() {
                 </button>
             </div>
 
-            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-gray-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
+            <div className="flex flex-col lg:flex-row justify-around items-center gap-5 lg:gap-0 bg-blu-200 rounded-xl w-full lg:w-2/3 px-5 lg:px-0 py-5">
                 <h3 className="text-xl lg:text-2xl">How can I book an appointment with a
                 specialist?</h3>
                 <button id="dropdownDefault" data-dropdown-toggle="dropdown" className="bg-black rounded-full w-16 h-16">

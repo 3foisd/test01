@@ -5,7 +5,7 @@ function footer() {
     return (
       <div>
 
-        <footer className="flex flex-col justify-evenly bg-indigo-950 min-h-fit lg:h-screen rounded-t-xl px-10 py-5 mx-5">
+        <footer className="flex flex-col justify-evenly bg-hero-pattern bg-cover min-h-fit lg:h-screen rounded-t-xl px-10 py-5 mx-5">
             <div className="flex flex-col lg:flex-row justify-around">
               <div className="flex flex-col mb-10 lg:mb-0 pr-0 lg:pr-10 gap-4 lg:w-1/4 mx-auto text-center lg:text-left">
                 <Image className="mx-auto lg:mx-0" width="200" height="200" src="/images/logo.svg" alt="logo"/>
@@ -19,6 +19,8 @@ function footer() {
                 <Link className="hover:text-primary-600" href="/services">Services</Link>
                 <Link className="hover:text-primary-600" href="/Doctors">Doctors</Link>
                 <Link className="hover:text-primary-600" href="/Blog">Blog</Link>
+                <Link className="hover:text-primary-600" href="/ContactRDV">Contact</Link>
+                <Link className="hover:text-primary-600" href="/Center">Center</Link>
                 <Link className="hover:text-primary-600" href="">Testimonials</Link>
               </div>
               <div className="flex flex-col gap-4 w-full lg:w-1/4 mx-auto text-center lg:text-left mb-10 lg:mb-0">

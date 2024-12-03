@@ -4,7 +4,7 @@ import Image from "next/Image"
 function StoryNov() {
     return (
 
-        <div className="bg-gray-200 rounded-xl">
+        <div className="bg-blu-200 rounded-xl">
 
             <div className='flex flex-col lg:flex-row justify-between items-center px-10 pt-10 lg:pt-20 pb-16'>
                 <div className="w-full lg:w-5/12 mb-5 lg:mb-0">

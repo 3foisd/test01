@@ -5,7 +5,7 @@ function BlogCardSingle() {
     return (
             <div className="flex flex-col lg:flex-row justify-center gap-5">
                 <Link href="/BlogSingle"><Image className="rounded-xl w-full" src="/images/freepik__candid-image-photography-natural-textures-highly-r__20995.jpg" width="500" height="500" alt="blog"/></Link> 
-                <div className="bg-gray-200 rounded-xl flex flex-col justify-center gap-5 py-5 lg:py-0 px-10 w-full lg:w-2/5">
+                <div className="bg-blu-200 rounded-xl flex flex-col justify-center gap-5 py-5 lg:py-0 px-10 w-full lg:w-2/5">
                     <div className="flex flex-row justify-between">
                         <p className="text-red-950">News</p>
                         <p>November 08, 2024</p>

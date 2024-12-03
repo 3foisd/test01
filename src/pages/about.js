@@ -15,7 +15,7 @@ export default function Contact() {
                 augue duis aiquet ipsum donec tempus ac interdum enim."/>
       <StoryNov/>
       <CardAbtus/>
-      <div className='bg-gray-200 rounded-xl p-10'><Doctors title2="More doctors"/></div>
+      <div className='bg-blu-200 rounded-xl p-10'><Doctors title2="More doctors"/></div>
       
       <Newsletter2/>
       </div>

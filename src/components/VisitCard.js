@@ -12,7 +12,7 @@ function VisitCard() {
 
             <div className='flex flex-col lg:flex-row gap-5'>
                 <Image className='rounded-xl w-full lg:w-3/5' src="/images/no-people-empty-waiting-area-clinical-center-with-reception-desk-waiting-room-with-seats-start-checkup-visit-appointment-medical-examination-with-doctor-hospital-lobby.jpeg" width="600" height="600"/>
-                <div className='bg-gray-200 rounded-xl flex flex-col justify-center gap-5 px-5 lg:px-20 py-5 w-full lg:w-2/5'>
+                <div className='bg-blu-200 rounded-xl flex flex-col justify-center gap-5 px-5 lg:px-20 py-5 w-full lg:w-2/5'>
                     <div>
                         <h2 className='text-2xl lg:text-4xl mb-5'>Bruxelles, Belgique</h2>
                         <p>Avenue Houba de Strooper 101, 1020 Laeken, Bruxelles</p>

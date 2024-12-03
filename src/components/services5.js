@@ -5,7 +5,7 @@ function Services5() {
     return (
 
         <div>
-            <div className="bg-gray-200 rounded-xl flex flex-col lg:flex-row gap-4 py-10 px-5">
+            <div className="bg-blu-200 rounded-xl flex flex-col lg:flex-row gap-4 py-10 px-5">
                 <div className="py-10 px-5 w-full lg:w-1/3">
                     <h2 className="text-3xl mb-5">Quality Care for you and the ones you love</h2>
                     <p>Lorem ipsum dolor sit amet consectetur

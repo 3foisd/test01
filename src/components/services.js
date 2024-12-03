@@ -11,18 +11,18 @@ function Services({ title, description}) {
                     <h2 className="text-3xl lg:text-4xl">Expert solutions for every step of your journey</h2>
                 </div>
                 <div className='flex flex-col lg:flex-row gap-4 lg:gap-10 mt-10'>
-                <button className="flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 hover:text-white w-52 h-12 rounded-full text-black">
+                <button className="flex flex-row justify-around items-center bg-blu-200 hover:bg-red-950 hover:text-white w-52 h-12 rounded-full text-black">
                     <Image src="/webfonts/map-marker-alt-solid-black.svg" width="24" height="24" alt="map"/>
                     <Link href="https://maps.app.goo.gl/ySeLZxxQAuZouH3o8" target="_blank">Browse all services</Link>
                 </button>
-                <button className="hidden lg:flex flex-row justify-around items-center bg-gray-200 hover:bg-red-950 w-12 h-12 rounded-full">
+                <button className="hidden lg:flex flex-row justify-around items-center bg-blu-200 hover:bg-red-950 w-12 h-12 rounded-full">
                     <Link href="/"><Image src="/webfonts/arrow-right-solid-black.svg" width="24" height="24" alt="arrow-right"/></Link>
                 </button>
                 </div>
             </div>
 
             <div className="flex flex-col lg:flex-row gap-4 mt-10">
-                <div className="hover:bg-gray-200 rounded-xl px-5 w-full lg:w-4/12 mb-16">
+                <div className="hover:bg-blu-200 rounded-xl px-5 w-full lg:w-4/12 mb-16">
                     <Link href="/">
                         <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="first-aid-kit"/>
                     </Link>
@@ -32,7 +32,7 @@ function Services({ title, description}) {
                     <p>{description}</p>
                 </div>
 
-                <div className="hover:bg-gray-200 rounded-xl px-5 w-full lg:w-4/12 mb-16">
+                <div className="hover:bg-blu-200 rounded-xl px-5 w-full lg:w-4/12 mb-16">
                     <Link href="/">
                         <Image className="pb-5" src="/images/002_First_Aid_Kit.png" width="125" height="125" alt="first-aid-kit"/>
                     </Link>

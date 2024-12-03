@@ -3,10 +3,10 @@ import Image from "next/Image"
 
 function CTA5() {
     return (
-        <div className='bg-gray-200 rounded-xl flex flex-col lg:flex-row gap-5 justify-between'>
+        <div className='bg-blu-200 rounded-xl flex flex-col lg:flex-row gap-5 justify-between'>
             <div className='flex flex-col justify-between w-full lg:w-1/2 gap-5 py-10 px-5'>
                 <div className='flex flex-col lg:flex-row gap-3 w-full justify-center'>
-                    <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                    <Link href="/" className='bg-blu-200 rounded-full w-16 h-16'>
                         <Image className='mx-auto mt-5' src="/webfonts/map-marker-alt-solid-black.svg" width="20" height="20"/>
                     </Link>
                     <div className='flex flex-col gap-2'>
@@ -17,7 +17,7 @@ function CTA5() {
                 </div>
 
                 <div className='flex flex-col lg:flex-row justify-start gap-3 w-full'>
-                    <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                    <Link href="/" className='bg-blu-200 rounded-full w-16 h-16'>
                         <Image className='mx-auto mt-5' src="/webfonts/clock-regular.svg" width="25" height="25"/>
                     </Link>
                     <div>
@@ -28,7 +28,7 @@ function CTA5() {
                 </div>
 
                 <div className='flex flex-col lg:flex-row justify-start gap-3 w-full'>
-                    <Link href="/" className='bg-gray-300 rounded-full w-16 h-16'>
+                    <Link href="/" className='bg-blu-200 rounded-full w-16 h-16'>
                         <Image className='mx-auto mt-5' src="/webfonts/phone-alt-solid-black.svg" width="20" height="20"/>
                     </Link>
                     <div>
@@ -39,7 +39,7 @@ function CTA5() {
                 </div>
             </div>
 
-            <section class="bg-gray-200 rounded-xl w-full lg:w-2/3">
+            <section class="bg-blu-200 rounded-xl w-full lg:w-2/3">
                 <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                     <form action="#" className="flex flex-wrap items-center space-y-8">
                         <div className="w-full lg:w-1/2 mt-8">
